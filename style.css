@@ -89,7 +89,7 @@ a{
 }
 .main{
     display: flex;
-    /* align-items: center; */
+    align-items: center; 
     justify-content: center;
     background-color:#FFFFFF;
 }
@@ -228,11 +228,16 @@ a{
         margin: 2rem;
     }
     .main{
-        margin-bottom: 2rem;
-        display: flex;
+        overflow:scroll;
     }
     .main .players{
         grid-template-columns: repeat(1 , 1fr);
+    }
+    .bonus{
+        flex-direction: column;
+    }
+    .bonus .optional{
+        margin: 1rem;
     }
     
 }
